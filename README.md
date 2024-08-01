@@ -1,47 +1,32 @@
-# AgriBot by team Hack-n-Slash for Hack4Change Hackathon
+## Budgie app
 
-AgriBot is a cutting-edge intelligent chatbot designed to support Indian farmers by providing real-time, relevant, and actionable information. Utilizing the power of AI, machine learning, and natural language processing, AgriBot offers valuable insights on crop prices, weather forecasts, government subsidies, loans, insurance schemes, and general farming queries.
+Budgie app is a tool to track your expenses and analyze them, built with React and styled with Tailwind css.
 
-## Mission
-AgriBot's mission is to empower farmers with the knowledge and resources necessary to make informed decisions and enhance their agricultural practices.
+## Demo (Desktop only)
+[https://budgie.isawi.tech/](https://budgie-app-yusuflisawi.netlify.app/)
 
-## Key Features
-- **Real-time Information**: Get up-to-date information on crop prices, weather forecasts, government subsidies, loans, and insurance schemes.
-- **Natural Language Processing**: Communicate with AgriBot in natural language for ease of use.
-- **Audio Query Support**: Farmers can use voice commands to interact with AgriBot, improving accessibility.
-- **Image Recognition**: Detect crop diseases by uploading images, enabling prompt action and solutions.
-- **User-Friendly Interface**: Designed with simplicity and usability in mind to cater to the needs of farmers.
+---
+![Screen Shot 2024-02-17 at 11 41 27](https://github.com/YusufLisawi/Budgie/assets/90868691/32673deb-a3e2-4d7c-9418-25a1346e9265)
+
 
 ## Installation
 
-### Prerequisites
-- Python 3.8+
-- pip
-
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/agribot.git
-cd agribot
+```plaintext
+git clone git@github.com:YusufLisawi/budgie.git
+cd budgie
+npm install
+npm start
 ```
 
-### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+## Tools used
 
-### Usage
-
-#### Interacting with AgriBot:
-- **Text Query**: Type your query directly into the chat interface.
-- **Audio Query**: Use the microphone button to ask your question.
-- **Image Recognition**: Upload an image of your crop to detect diseases.
-
-### Technologies Used
-- **AI & Machine Learning**: Provides real-time and accurate insights.
-- **Natural Language Processing (NLP)**: Enables easy and natural communication.
-- **Image Recognition**: Helps in detecting crop diseases through image analysis.
-- **Python**: Core programming language for developing AgriBot.
-
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+-   Reactjs
+    -   Context api
+    -   useState, useEffect
+    -   react router v6
+-   LocalStorage
+-   Tailwind css
+-   chart.js
+-   SweetAlert2
+-   react-tiptool
+-   react-flipMove
